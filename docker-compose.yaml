@@ -9,7 +9,8 @@ networks:
       driver: default
       config:
         - subnet: "172.30.172.0/24"
-    enable_ipv6: false
+    # TODO
+    #enable_ipv6: false
 
 services:
 
